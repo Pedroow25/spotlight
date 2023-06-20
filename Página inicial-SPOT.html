@@ -22,15 +22,28 @@
 
 
            <title>SPOT LIGHT</title>
-          <link rel="icon" href="">
-
-           
+          
+  
     </head>
 
    
-  <body>
+  <body> 
 
-    <div id="Principal">
+    <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-60px"; /* Altura da barra de navegação */
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+
+    
       <!-- inicio cabecalho -->
 
 <header class="cabecalho">
@@ -48,165 +61,194 @@
     
           </header><!--/ fim cabecalho -->
 
-      <div class="container3" id="conteudo">
+      <div class="container3">
             
-        <div class="row"  >
-          <div class="col-md-3">
+        <div class="row">
+          <div class="col">
             <div class="thumbnail">
-              <img src="Imagens/Bonélaranjafrente.png" height="250" width="250" >
+              <img  src="Imagens/Bonélaranjafrente.png" height="250" width="250" alt="Imagem" class="imagem-arredondada" >
               <div class="caption">
-                <h4>Produto 1</h4>
-                <p>Descrição do produto 1</p>
-                
-              </div>
-            </div>
-
-          </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <img src="Imagens/Bonélaranjafrente.png" height="250" width="250">
-              <div class="caption">
-                <h4>Produto 2</h4>
-                <p>Descrição do produto 1</p>
-                
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="thumbnail">
-             <img src="Imagens/Bonélaranjafrente.png" height="250" width="250">
-              <div class="caption">
-                <h4>Produto 3</h4>
                 <p>Descrição do produto 3</p>
-                
-              </div>
-            </div>
-          </div>
-           <div class="col-md-3">
-            <div class="thumbnail">
-              <img src="Imagens/Bonélaranjafrente.png" height="250" width="250">
-              <div class="caption">
-                <h4>Produto 1</h4>
-                <p>Descrição do produto 1</p>
-                
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <img src="Imagens/Bonélaranjafrente.png" height="250" width="250">
-              <div class="caption">
-                <h3>Produto 2</h3>
-                <p>Descrição do produto 2</p>
-                
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-             <img src="Imagens/Bonélaranjafrente.png" height="250" width="250">
-              <div class="caption">
-                <h4>Produto 3</h4>
-                <p>Descrição do produto 3</p>
+                <h5>$72.00 CAD</h5>
                 
               </div>
             </div>
           </div>
 
-           <div class="col-md-3">
+          <div class="c
+          ol">
             <div class="thumbnail">
-              <img src="Imagens/Bonélaranjafrente.png" height="250" width="250">
+              <img src="Imagens/Bonélaranjafrente.png" height="250" width="250" alt="Imagem" class="imagem-arredondada">
               <div class="caption">
-                <h4>Produto 1</h4>
-                <p>Descrição do produto 1</p>
-                
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-             <img src="Imagens/Bonélaranjafrente.png" height="250" width="250">
-              <div class="caption">
-                <h4>Produto 2</h4>
-                <p>Descrição do produto 2</p>
-               
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <img src="Imagens/Bonélaranjafrente.png" height="250" width="250">
-              <div class="caption">
-                <h4>Produto 3</h4>
                 <p>Descrição do produto 3</p>
+                <h5>$72.00 CAD</h5>
                 
               </div>
             </div>
           </div>
 
-           <div class="col-md-3">
+          <div class="col">
             <div class="thumbnail">
-              <img src="Imagens/Bonélaranjafrente.png" height="250" width="250">
+             <img src="Imagens/Bonélaranjafrente.png" height="250" width="250" alt="Imagem" class="imagem-arredondada">
               <div class="caption">
-                <h4>Produto 1</h4>
-                <p>Descrição do produto 1</p>
-                
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-              <img src="Imagens/Bonélaranjafrente.png" height="250" width="250">
-              <div class="caption">
-                <h4>Produto 2</h4>
-                <p>Descrição do produto 2</p>
-
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="thumbnail">
-             <img src="Imagens/Bonélaranjafrente.png" height="250" width="250">
-              <div class="caption">
-                <h4>Produto 3</h4>
                 <p>Descrição do produto 3</p>
+                <h5>$72.00 CAD</h5>
                 
               </div>
             </div>
           </div>
-          
+
+          <div class="col">
+            <div class="thumbnail">
+              <img src="Imagens/Bonélaranjafrente.png" height="250" width="250" alt="Imagem" class="imagem-arredondada">
+              <div class="caption">
+                <p>Descrição do produto 3</p>
+                <h5>$72.00 CAD</h5>
+                
+              </div>
+            </div>
           </div>
+
+
+          <div class="col">
+            <div class="thumbnail">
+              <img src="Imagens/Bonélaranjafrente.png" height="250" width="250" alt="Imagem" class="imagem-arredondada">
+              <div class="caption">
+                <p>Descrição do produto 3</p>
+                <h5>$72.00 CAD</h5>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="thumbnail">
+             <img src="Imagens/Bonélaranjafrente.png" height="250" width="250" alt="Imagem" class="imagem-arredondada">
+              <div class="caption">
+                <p>Descrição do produto 3</p>
+               <h5>$72.00 CAD</h5>
+                
+              </div>
+            </div>
+          </div>
+
+           <div class="col">
+            <div class="thumbnail">
+              <img src="Imagens/Bonélaranjafrente.png" height="250" width="250" alt="Imagem" class="imagem-arredondada">
+              <<div class="caption">
+                <p>Descrição do produto 3</p>
+                <h5>$72.00 CAD</h5>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="thumbnail">
+             <img src="Imagens/Bonélaranjafrente.png" height="250" width="250" alt="Imagem" class="imagem-arredondada">
+              <div class="caption">
+              <p>Descrição do produto 3</p>
+              <h5>$72.00 CAD</h5>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="thumbnail">
+              <img src="Imagens/Bonélaranjafrente.png" height="250" width="250" alt="Imagem" class="imagem-arredondada">
+              <div class="caption">
+                <p>Descrição do produto 3</p>
+                <h5>$72.00 CAD</h5>
+                
+              </div>
+            </div>
+          </div>
+
+           <div class="col">
+            <div class="thumbnail">
+              <img src="Imagens/Bonélaranjafrente.png" height="250" width="250" alt="Imagem" class="imagem-arredondada">
+             <div class="caption">
+                <p>Descrição do produto 3</p>
+                 <h5>$72.00 CAD</h5>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="thumbnail">
+              <img src="Imagens/Bonélaranjafrente.png" height="250" width="250" alt="Imagem" class="imagem-arredondada">
+                <div class="caption">
+                <p>Descrição do produto 3</p>
+                <h5>$72.00 CAD</h5>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="thumbnail">
+             <img src="Imagens/Bonélaranjafrente.png" height="250" width="250" alt="Imagem" class="imagem-arredondada">
+              <div class="caption">
+                <p>Descrição do produto 3</p>
+                <h5>$72.00 CAD</h5>
+                
+              </div>
+            </div>
+          </div>
+
+
       </div>
-  </a>
-    </body>
+
+      </div>
+
+    
       
 
-      <footer>
-            <div class="container">
-              <div class="row">
-                <div class="col-md-3">
-                  <img src="imagens/loguinhodebaixo.png" width="142">
+        </body>
+
+        <hr>
+
+        <footer>
+            <div class="container__footer">
+              <div>
+                  <img src="imagens/loguinhodebaixo.png" width="70">
                 </div>
 
+                <h5>A brand that strives to inspire and push creative culture forward.</h5> 
 
+                <p class="text">We approach our work with the mentality that every product made is a learning experience to improve our craft. We are practitioners and purveyors of creative culture and are inspired by its various forms from art, design, fashion, music, film, food, and more.</p>
 
-               
+                <img src="imagens/logofootface.png" hspace="10px" width="18px" >
+
+                <img src="imagens/logofootinsta2.png" hspace="10px" width="25px">
+
+                <img src="imagens/logofootyoutube.png" width="40px">
+
+                <img src="imagens/logofoottiktok.png" hspace="20 px" width="18px">
+
+                <img src="imagens/logofoottwiter.png" width="20px">
                 
-                </div>                      
-                 </div>
-              
-
-
+                
+              </div>
 
 
           </footer>
 
+          <hr>
+
+          <div class="container-final">
+
+
+            
+
+
+          </div>
+
+
+
           
-
-
-
-        
          
 
        
